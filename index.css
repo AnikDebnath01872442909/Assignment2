@@ -48,6 +48,12 @@
     text-align: center;
 
 }
+.title p{
+    font-family: 'Work Sans';
+    color: gray;
+    text-align: center;
+    font-size: 14px;
+}
 .explore-btn{
     font-family: 'Work Sans';
     font-style: normal;
