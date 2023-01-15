@@ -167,8 +167,8 @@
     width: 220px;
     z-index: 9;
     position: absolute;
-    top:375vh;
-    left:750px;
+    top:425vh;
+    left:740px;
 }
 .experience-btn:hover{
     transform: scale(1.2);
@@ -292,4 +292,115 @@
     align-items: center;
     background-color:#FFF4E7;
     color: grey;
+}
+
+/* Responsive :start */
+
+@media screen and (max-width: 576px) {
+    .front_section{
+        width:100%;
+        height: 115vh;
+        
+    }
+    .front_section span{
+        width: 100%;
+        position: sticky;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .title{
+        width: 70%;
+    }
+    .feature{
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+       margin: 0px;
+       padding: 0px; 
+       margin-top: 10px;
+       column-gap: 5px;
+    } 
+    .feature-img{
+        display:flex;
+        flex-direction: column;
+       
+    }
+    .feature-img img{
+        width:100%;
+        height: 30vh; 
+        margin: 0px;
+        padding: 0px;  
+     }
+    .feature-description{
+        display:flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .explore-btn{
+        justify-content: center;
+        align-self:center;
+    }
+    .experience{
+        display:flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+    .experience-img img{
+        width: 100%;
+        height: 50vh;
+    }
+    .facts{
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 0px;
+        padding:0px;
+        width:50%px;  
+    }
+    .facts p{
+      font-size: 7px;
+    }
+.extra-section{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 1100px;
+}
+.Summary{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:0px;
+    padding:0px;
+    column-gap: 0px;
+}
+.Sponsor{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.spons{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.spons div img{
+    width:50%;
+    margin-left: 100px;
+    padding: 5px;
+}
+    .experience-btn{
+        top:425vh;
+        left:90px;
+        font-size: medium;
+    }
+
 }
