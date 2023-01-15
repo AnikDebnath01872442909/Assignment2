@@ -1,0 +1,165 @@
+/* Front Banner Section */
+
+.front_section{
+    background: rgba(255, 144, 14, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 1080px;
+}
+
+.navbar span{
+    position: absolute;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 30px;
+}
+.navlist{
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+   
+  
+
+}
+.navlist li{
+    list-style: none;
+    padding:0px 10px 0px 10px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+/* heading title Banner */
+.title{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+.title span{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+
+}
+.explore-btn{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 20px;
+    text-align: center;
+    background-color: #FF900E ;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+}
+.banner-img{
+    width:75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+/* Features Box */
+.feature{
+    margin: 50px 100px 0px 150px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.feature-img{
+    display: grid;
+    grid-template-columns: 
+    repeat(2,1fr);
+    row-gap: 30px;
+    column-gap: 30px;
+}
+.feature-description{
+    margin: 250px 100px 200px 90px ;
+    font-family: 'Work Sans';
+    font-style: normal;
+}
+.sp-quicklist{
+    font-weight: 400;
+    font-size: 45px;
+    color: gray;
+}
+.sp-ofour{
+    font-weight: 700;
+    font-size: 45px;
+}
+.sp-features{
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+.feature-description p{
+    font-size: 16px;
+    color: grey;
+}
+.experience{
+    margin: 50px 100px 0px 150px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 120px;
+   
+    
+}
+.experience-description p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: gray;
+}
+.para-1 span{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    border-left:3px solid #FF900E;
+}
+.para-2 ,.para-3 ,.para-4 ,.para-5{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 25px;
+    box-shadow: 10px 5px 5px rgba(128, 128, 128, 0.332);
+} 
+.experience-img img{
+    height:100vh;
+    position: relative;
+    opacity: 0.8;
+}
+.experience-btn{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    background-color: #FF900E ;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 5px;
+    width: 220px;
+    z-index: 9;
+    position: absolute;
+    top:355vh;
+    left:750px;
+}
+
